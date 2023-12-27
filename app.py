@@ -41,16 +41,6 @@ else:
                                                       'Meat',
                                                       'Fruits and Vegetables', 
                                                       'Household', 
-                                                      'Baking Goods', 
-                                                      'Snack Foods',
-                                                      'Frozen Foods',
-                                                      'Breakfast',
-                                                      'Health and Hygiene',
-                                                      'Hard Drinks',
-                                                      'Canned',
-                                                      'Breads',
-                                                      'Starchy Foods',
-                                                      'Seafood',
                                                       'Others'))
         Item_MRP = st.sidebar.slider('Item MRP', 30, 300, 100)
         Outlet_Identifier = st.sidebar.selectbox('Outlet identifier', ('OUT049', 'OUT018', 'OUT010', 'OUT013', 'OUT027', 'OUT045', 'OUT017', 'OUT046', 'OUT035', 'OUT019'))
